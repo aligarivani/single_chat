@@ -3,7 +3,7 @@ from socket import *
 
 server = socket(AF_INET, SOCK_STREAM)
 
-server.bind(('your ip', 1234))
+server.bind(('your ip', 1234))  # edit Here
 
 server.listen(1)
 
